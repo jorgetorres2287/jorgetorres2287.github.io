@@ -20,8 +20,8 @@ body {
 
 .index-me {
     border-radius: 50%;
-    width: 250px;
-    height: 290px;
+    width: 220px;
+    height: 275px;
     margin-top: -320px;
 }
 
@@ -43,8 +43,8 @@ body {
 
     .index-me {
         border-radius: 50%;
-        width: 250px;
-        height: 290px;
+        width: 220px;
+        height: 275px;
         margin-top: -320px;
     }
 }
