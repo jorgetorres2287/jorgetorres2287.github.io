@@ -22,15 +22,15 @@ body {
     border-radius: 50%;
     width: 230px;
     height: 288px;
-    margin-top: -310px;
+    margin-top: -280px;
 }
 
 @keyframes bobbing {
     0%, 100% {
-        transform: translateY(-335px);
+        transform: translateY(-305px);
     }
     50% {
-        transform: translateY(-341px);
+        transform: translateY(-313px);
     }
 }
 
@@ -45,7 +45,7 @@ body {
         border-radius: 50%;
         width: 220px;
         height: 275px;
-        margin-top: -320px;
+        margin-top: -280px;
     }
 }
 
@@ -60,7 +60,7 @@ body {
         border-radius: 50%;
         width: 200px;
         height: 250px;
-        margin-top: -320px;
+        margin-top: -280px;
     }
 }
 
