@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bobbing-name {
+    font-size: 80px;
+    font-weight: bold;
+    animation: bobbing 2s ease-in-out infinite;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes bobbing {
+    0%, 100% {
+        transform: translateY(-300px);
+    }
+    50% {
+        transform: translateY(-306px);
+    }
+}
