@@ -3,11 +3,34 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
+    background: linear-gradient(221deg, #312785, #1f3c7a, #09142b, #312785, #1f3c7a, #312785, #09142b, #1f3c7a, #312785);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: AnimationName 33s ease infinite;
+    -moz-animation: AnimationName 33s ease infinite;
+    animation: AnimationName 33s ease infinite;
+
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
     font-family: 'Fira Sans', sans-serif;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }
 
 .bobbing-name {
@@ -15,7 +38,7 @@ body {
     font-weight: bold;
     animation: bobbing 2s ease-in-out infinite;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    color: #c3c5cd;
+    color: #e1e3e8;
 }
 
 .index-me {
@@ -63,5 +86,3 @@ body {
         margin-top: -280px;
     }
 }
-
-
